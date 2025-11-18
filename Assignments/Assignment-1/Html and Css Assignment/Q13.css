@@ -1,0 +1,42 @@
+/* Fixed Header Styling */
+header {
+    position: fixed;      /* stays at top */
+    top: 0;
+    left: 0;
+    width: 100%;          /* full width */
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Add space on top so content doesn't hide under header */
+.content {
+    margin-top: 120px;
+    padding: 20px;
+}

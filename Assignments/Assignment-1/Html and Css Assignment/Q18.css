@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* 1/4, 2/4, 1/4 */
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  grid-column: 1 / 4;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar {
+  background: #93c5fd;
+  padding: 20px;
+}
+
+.main {
+  background: #dbeafe;
+  padding: 20px;
+}
+
+.widget {
+  background: #bfdbfe;
+  padding: 20px;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

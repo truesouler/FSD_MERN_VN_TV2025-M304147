@@ -1,0 +1,21 @@
+/* General styles for links */
+nav a {
+    text-decoration: none;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* INLINE MENU (all links in one row) */
+.inline-menu a {
+    display: inline;      /* horizontal in a row */
+}
+
+/* BLOCK MENU (links stacked vertically) */
+.block-menu a {
+    display: block;       /* vertical full-width */
+    width: 200px;         /* optional width for neat look */
+}

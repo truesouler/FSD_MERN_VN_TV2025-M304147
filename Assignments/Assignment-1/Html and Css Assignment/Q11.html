@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three CSS Methods</title>
+
+    <!-- External CSS File -->
+    <!-- This CSS styles the body and all paragraphs -->
+    <link rel="stylesheet" href="Q11.css">
+
+    <!-- Internal CSS -->
+    <!-- Used for styling the middle section only -->
+    <style>
+        .internal-box {
+            background-color: #e0f2fe;
+            padding: 15px;
+            border-left: 4px solid #0284c7;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: green; text-align: center;">
+        <!-- Inline CSS -->
+        <!-- Inline CSS used only for this heading -->
+        Welcome to My Webpage
+    </h1>
+
+    <!-- Section styled with External CSS -->
+    <p>
+        This paragraph is styled using <strong>external CSS</strong>. The text font and page
+        background are controlled by the external stylesheet.
+    </p>
+
+    <!-- Section styled with Internal CSS -->
+    <div class="internal-box">
+        <h2>Internal CSS Section</h2>
+        <p>
+            This box uses <strong>internal CSS</strong> defined in the &lt;style&gt; tag inside the
+            HTML file. Internal CSS is used when you want to style one section/page only.
+        </p>
+    </div>
+
+</body>
+</html>

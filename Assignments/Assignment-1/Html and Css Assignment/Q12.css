@@ -1,0 +1,35 @@
+/* Navigation Menu Styling */
+
+nav {
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* Link Styles */
+nav a {
+    text-decoration: none;
+
+    /* ✔ Custom font properties */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #222;
+    transition: 0.3s;
+}
+
+/* ✔ Hover Effect */
+nav a:hover {
+    color: #1e90ff;
+}
+
+/* ✔ Visited Link Color */
+nav a:visited {
+    color: #8a2be2;  /* Purple */
+}

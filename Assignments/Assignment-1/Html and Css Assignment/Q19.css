@@ -1,0 +1,48 @@
+/* Default (Desktop) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  background: #1e3a8a; /* desktop color */
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Medium Screens (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar ul {
+    background: #2563eb; /* medium breakpoint color */
+  }
+}
+
+/* Mobile Screens (<= 768px) */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: block;
+    background: #1e40af;
+    padding: 0;
+  }
+
+  .navbar li {
+    padding: 12px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+  }
+
+  .navbar li:last-child {
+    border-bottom: none;
+  }
+}

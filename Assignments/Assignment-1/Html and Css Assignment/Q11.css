@@ -1,0 +1,11 @@
+/* External CSS: Used for body and paragraph styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Deepak P</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">DEEPAK P</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Projects & Research</h1>
+      <p>Below are selected academic and technical projects from my coursework and final-year research.</p>
+
+      <h2>Project Gallery (Grid)</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>RFID Based Car Ignition System</h3>
+          <p>A system that enhances security by requiring a specific RFID tag for ignition. Integrates anti-theft and access control features.</p>
+          <p><strong>Role:</strong> Design, implementation, testing</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Ceramic Coated Diesel Engine Pistons</h3>
+          <p>Integrated design and analysis to improve thermal resistance, reduce wear and increase engine efficiency using ceramic coatings.</p>
+          <p><strong>Role:</strong> Simulation, material selection, testing</p>
+        </article>
+
+        <!-- Add more cards if needed -->
+      </div>
+
+      <h2>Project Details (Table)</h2>
+      <div class="table-wrap">
+        <table class="projects-table">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Year</th>
+              <th>Key Technologies / Methods</th>
+              <th>Outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>RFID Based Car Ignition System</td>
+              <td>2023</td>
+              <td>RFID modules, microcontroller, wiring, access control</td>
+              <td>Prototype ignition control; improved anti-theft behavior</td>
+            </tr>
+            <tr>
+              <td>Ceramic Coated Diesel Engine Pistons</td>
+              <td>2024</td>
+              <td>Material analysis, CAD, thermal simulation</td>
+              <td>Findings: improved wear resistance and thermal performance</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Notes</h2>
+      <ul>
+        <li>Projects include design, testing and documentation phases.</li>
+        <li>Demonstrated capabilities in core mechanical topics and CAD.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year2"></span> Deepak P • Projects</p>
+    </div>
+  </footer>
+
+  <script> document.getElementById('year2').textContent = new Date().getFullYear(); </script>
+</body>
+</html>

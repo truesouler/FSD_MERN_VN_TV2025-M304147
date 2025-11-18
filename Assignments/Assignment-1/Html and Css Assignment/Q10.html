@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Component</title>
+
+    <style>
+        .card {
+            width: 300px;
+            height: 400px;
+            background-color: #ffffff;
+            border: 2px dashed #888; /* subtle dashed border */
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 10px;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #1e40af;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="Card Image">
+
+        <h3>Beautiful Landscape</h3>
+        <p>
+            This card component displays an image, a title, a short description, and a button.
+            It is styled with margins, padding, and a subtle dashed border.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+
+</body>
+</html>
